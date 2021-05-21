@@ -1,6 +1,7 @@
 {
   "name": "splatoon2-video-description-generator",
   "version": "0.0.1",
+  "private": true,
   "license": "MIT",
   "author": {
     "name": "yukidaruma",
@@ -9,6 +10,7 @@
   "scripts": {
     "build": "node build",
     "dev": "npm run build && npm start",
+    "postinstall": "npm run build",
     "start": "node dist/main"
   },
   "dependencies": {
