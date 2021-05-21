@@ -1,0 +1,23 @@
+{
+  "name": "splatoon2-video-description-generator",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "yukidaruma",
+    "url": "https://github.com/yukidaruma"
+  },
+  "scripts": {
+    "build": "node build",
+    "dev": "npm run build && npm start",
+    "start": "node dist/main"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@splatoon-stats/types": "^1.0.2",
+    "@types/node": "^15.6.0",
+    "dotenv": "^9.0.1",
+    "esbuild": "^0.11.10"
+  }
+}
